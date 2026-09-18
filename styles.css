@@ -1,0 +1,105 @@
+* {
+    font-family: "Tahoma";
+    text-transform: uppercase;
+}
+
+html, body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+    height: 100dvh;
+    overflow: hidden;
+}
+
+body{
+    background-color: black;
+
+}
+
+button {
+    border-radius: 5dvh;
+    background-color: white;
+    border: 0px solid;
+}
+
+
+#control_panel{
+    background-color: red;
+    margin-top: auto;
+    width: 100dvw;
+    height: 10dvh;
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    
+    background-color: #BFBFBF;
+    border-bottom: 1px solid black;
+    
+    display: flex;
+    justify-content: center;
+}
+
+#header-text{
+    text-align: center;
+}
+
+#controls{
+    width: 60%;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    font-size: 3dvh;
+
+}
+
+.navigate-rounds{
+    font-size: 2.5dvh;
+    padding: 1dvh 2dvh;
+}
+
+#graphics{
+    margin: 0px;
+    padding: 0px;
+    width: 100dvw;
+    height: 90dvh;
+}
+
+canvas{
+    /*display: none;*/
+    /*border: 1px solid white;*/
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.select-winner{
+    padding: 2dvh 3dvh;
+    font-size: 4dvh;
+    
+    position: absolute;
+    bottom: calc(90dvh * 0.15);
+    display: none;
+}
+
+/*#submit_winner{*/
+/*    bottom: calc(90dvh * 0.05);*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, 0%);*/
+/*}*/
+
+#player1{
+    left: calc(100dvw * 0.25);
+    transform: translate(-50%, 0%);
+
+}
+
+#player2{
+    right: calc(100dvw * 0.25);
+    transform: translate(50%, 0%);
+}
