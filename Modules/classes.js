@@ -23,8 +23,8 @@ export class gameMaster {
     
     init(){
         //creates player objects from class list and sets currentPlayers to playerIDs
-        var roster = ["Jack", "Ethan", "Sriya", "Karya", "Jerrilyn", "Parker", "Ujwal", "Arjun", "Rishi", "Ben", "Keerti", "Collin", "Riya", "Ishani", "Clive",
-        "Adam", "Laksha", "Tushita", "Landon", "Brihat", "Jessica", "Rishabh","Wyatt", "Satvika", "Lavanya", "Shriya", "Sanskriti", "Amulya", "Richard", "Hinaa", "Aisha", "Finn"];
+        var roster = ["Kai", "Cole", "Jay", "Zane", "Nya", "Lloyd", "Wu", "Garmadon", "Misako", "Ed", "Edna", "P.I.X.A.L.", "Skylor", "Dareth", "Arin",
+        "Sora", "Wyldfyre", "Frak", "Euphrasia", "Overlord", "Chen", "Clouse","Morro", "Nadakhan", "Time Twins", "Pythor", "Skales", "Harumi", "Omega", "Karlof", "Akita", "Aspheera"];
         for (var i = 0; i < roster.length; i++){
             this.players.push(new player(roster[i], i));
             this.currentPlayers.push(i);
